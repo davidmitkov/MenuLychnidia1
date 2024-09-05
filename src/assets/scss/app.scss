@@ -1,0 +1,48 @@
+//import fonts
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+$font-family-base: "Gilroy";
+$warning: #e0c46b;
+
+@import "~bootstrap/scss/bootstrap";
+
+#app {
+  max-width: 600px;
+  margin: auto;
+  background-color: #e8dca9 !important;
+}
+
+.card {
+  background-color: #e0c46b !important;
+}
+
+footer {
+  background-color: #e0c46b !important;
+}
+
+.ingredients {
+  font-size: 0.8rem !important;
+}
+
+.border-radius-14px {
+  border-radius: 14px !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.ratio-375x281 {
+  --bs-aspect-ratio: calc(281 / 375 * 100%);
+}
